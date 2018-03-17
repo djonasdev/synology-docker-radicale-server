@@ -29,28 +29,28 @@ This image will automatically create a configuration file for
  
 ## Screenshots
 
-1. Download container
+Download container
 ![Download container](/screenshots/1.png?raw=true "Download container")
 
-2. Setup #1 - General
+Setup #1 - General
 ![Setup #1 - General](/screenshots/2.png?raw=true "Setup #1 - General")
 
-3. Setup #2 - Volumes
+Setup #2 - Volumes
 ![Setup #2 - Volumes](/screenshots/3.png?raw=true "Setup #2 - Volumes")
 
-4. Setup #3 - Ports
+Setup #3 - Ports
 ![Setup #3 - Ports](/screenshots/4.png?raw=true "Setup #3 - Ports")
 
-5. Setup #4 - User/Group ID
+Setup #4 - User/Group ID
 ![Setup #4 - User/Group ID](/screenshots/5.png?raw=true "Setup #4 - User/Group ID")
 
-6. Setup #5 - Folder Permission
+Setup #5 - Folder Permission
 ![Setup #5 - Folder Permission](/screenshots/6.png?raw=true "Setup #5 - Folder Permission")
 
-7. Setup #6 - Folder Permission
+Setup #6 - Folder Permission
 ![Setup #6 - Folder Permission](/screenshots/7.png?raw=true "Setup #6 - Folder Permission")
 
-8. Start Container
+Start Container
 ![Start Container](/screenshots/8.png?raw=true "Start Container")
 
 ## Detailed description of image and containers
