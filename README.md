@@ -31,35 +31,35 @@ This image will automatically create a configuration file for
 
 Download container
 
-![Download container](/screenshots/1.png?raw=true "Download container")
+![Download container](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/1.png "Download container")
 
 Setup #1 - General
 
-![Setup #1 - General](/screenshots/2.png?raw=true "Setup #1 - General")
+![Setup #1 - General](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/2.png "Setup #1 - General")
 
 Setup #2 - Volumes
 
-![Setup #2 - Volumes](/screenshots/3.png?raw=true "Setup #2 - Volumes")
+![Setup #2 - Volumes](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/3.png "Setup #2 - Volumes")
 
 Setup #3 - Ports
 
-![Setup #3 - Ports](/screenshots/4.png?raw=true "Setup #3 - Ports")
+![Setup #3 - Ports](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/4.png "Setup #3 - Ports")
 
 Setup #4 - User/Group ID
 
-![Setup #4 - User/Group ID](/screenshots/5.png?raw=true "Setup #4 - User/Group ID")
+![Setup #4 - User/Group ID](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/5.png "Setup #4 - User/Group ID")
 
 Setup #5 - Folder Permission
 
-![Setup #5 - Folder Permission](/screenshots/6.png?raw=true "Setup #5 - Folder Permission")
+![Setup #5 - Folder Permission](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/6.png "Setup #5 - Folder Permission")
 
 Setup #6 - Folder Permission
 
-![Setup #6 - Folder Permission](/screenshots/7.png?raw=true "Setup #6 - Folder Permission")
+![Setup #6 - Folder Permission](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/7.png "Setup #6 - Folder Permission")
 
 Start Container
 
-![Start Container](/screenshots/8.png?raw=true "Start Container")
+![Start Container](https://raw.githubusercontent.com/dojo90/synology-docker-radicale-server/master/screenshots/8.png "Start Container")
 
 ## Detailed description of image and containers
 
