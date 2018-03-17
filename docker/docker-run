@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#Print some Debug
+set -x
+
+CONFIG_FILE="radicale.ini"
+CONFIG_DIR="/data/config"
+
+mkdir -p $CONFIG_DIR
+cd $CONFIG_DIR
+
+if [ ! -e "$CONFIG_FILE" ]; then
+	cat /usr/local/share/$CONFIG_FILE > ./$CONFIG_FILE
+fi
+
+exec radicale --config "$CONFIG_DIR/$CONFIG_FILE"
