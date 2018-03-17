@@ -15,10 +15,10 @@ The special feature of this container is to configure the **User and Group ID** 
 id -u Docker-Radicale
 1001
 ```
-6. Start container once from the `Console`. This will be deposited in the Docker app on the `Synology` (under the tab Image). It is important to use the `ID` (step 5) because of folder permissions.
+6. [OPTIONAL -> see Screenshots] Start container once from the `Console`. This will be deposited in the Docker app on the `Synology` (under the tab Image). It is important to use the `ID` (step 5) because of folder permissions.
 
 ```bash
-docker run -p 5232:5232 -e UID='1001' -e GID='1001' -v /data:/your/custom/path/on/Synology djonasdev/synology-docker-radicale-server
+docker run -p SynoPort5232:5232 -e UID='1001' -e GID='1001' -v /your/custom/path/on/Synology:/data/ djonasdev/synology-radicale-server
 ```
 7. A new container has now been created on `Synology` in the Docker app. This can now be renamed and modified.
 8. You're done! The container is now always started with the previously used **User and Group ID**.
@@ -27,6 +27,32 @@ docker run -p 5232:5232 -e UID='1001' -e GID='1001' -v /data:/your/custom/path/o
 This image will automatically create a configuration file for
  Radicale Server.
  
+## Screenshots
+
+1. Download container
+![Download container](/screenshots/1.png?raw=true "Download container")
+
+2. Setup #1 - General
+![Setup #1 - General](/screenshots/2.png?raw=true "Setup #1 - General")
+
+3. Setup #2 - Volumes
+![Setup #2 - Volumes](/screenshots/3.png?raw=true "Setup #2 - Volumes")
+
+4. Setup #3 - Ports
+![Setup #3 - Ports](/screenshots/4.png?raw=true "Setup #3 - Ports")
+
+5. Setup #4 - User/Group ID
+![Setup #4 - User/Group ID](/screenshots/5.png?raw=true "Setup #4 - User/Group ID")
+
+6. Setup #5 - Folder Permission
+![Setup #5 - Folder Permission](/screenshots/6.png?raw=true "Setup #5 - Folder Permission")
+
+7. Setup #6 - Folder Permission
+![Setup #6 - Folder Permission](/screenshots/7.png?raw=true "Setup #6 - Folder Permission")
+
+8. Start Container
+![Start Container](/screenshots/8.png?raw=true "Start Container")
+
 ## Detailed description of image and containers
 
 ### Used ports
