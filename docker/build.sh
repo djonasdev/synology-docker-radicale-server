@@ -47,15 +47,15 @@ apk add git python3 python3-dev build-base libffi-dev ca-certificates openssl &&
 BUILD_DEP="python3-dev musl-dev build-base libffi-dev python-dev make gcc g++ git"
 apk add $BUILD_DEP
 
-################################################
-# Clone mozilla-syncserv and get needed commit #
-################################################
+########################################
+# Clone Radicale and get needed commit #
+########################################
 git clone https://github.com/Kozea/Radicale .
 git reset --hard "$GIT_COMMIT"
 
-#############################
-# Build and install radical #
-#############################
+##############################
+# Build and install radicale #
+##############################
 python3 -m pip install .
 
 #########################################
