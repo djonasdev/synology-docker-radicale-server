@@ -1,5 +1,16 @@
 # Radicale Server Docker image
-Docker image for [Radicale Server](https://github.com/Kozea/Radicale)
+
+![Docker stars](https://img.shields.io/docker/stars/djonasdev/synology-radicale-server.png "Docker stars")
+&nbsp;
+![Docker pulls](https://img.shields.io/docker/pulls/djonasdev/synology-radicale-server.png "Docker pulls")
+&nbsp;
+![Docker automated](https://img.shields.io/docker/automated/djonasdev/synology-radicale-server.png "Docker automated")
+
+[![Docker repo](https://github.com/dojo90/synology-docker-radicale-server/blob/master/images/docker.png?raw=true "Docker repo")](https://hub.docker.com/r/djonasdev/synology-radicale-server)
+&nbsp;
+[![Github repo](https://github.com/dojo90/synology-docker-radicale-server/blob/master/images/github.png?raw=true "Github repo")](https://github.com/dojo90/synology-docker-radicale-server)
+
+Dockerised [Radicale Server](https://github.com/Kozea/Radicale) built from source
 
 ## Introduction
 The special feature of this container is to configure the **User and Group ID** of the running docker container. So you can use the existing user permissions of a `Synology`. This Docker image is also extremly lightweight with ~66MB ([InfCloud web interface](https://github.com/Unrud/RadicaleInfCloud) is **not** included! But who needs that?!).
