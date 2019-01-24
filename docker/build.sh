@@ -37,7 +37,7 @@ apk update
 ######################################################
 # Runtime and build dependencies for Radicale server #
 ######################################################
-apk add git python3 python3-dev build-base libffi-dev ca-certificates openssl && python3 -m pip install --upgrade pip && python3 -m pip install passlib bcrypt
+apk add git python3 python3-dev build-base libffi-dev ca-certificates openssl tzdata && python3 -m pip install --upgrade pip && python3 -m pip install passlib bcrypt
 
 #################################################
 # Seperate build-deps                           #
