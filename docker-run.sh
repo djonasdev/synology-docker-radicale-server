@@ -13,8 +13,9 @@ DOCKER_ARGS=""
 IMAGE="djonasdev/synology-docker-radicale-server"
 
 #Stop the old instance if already running
-$DOCKER rm $($DOCKER stop $($DOCKER ps -a -q --filter ancestor=$IMAGE --format="{{.ID}}"))
+./docker-stop.sh
 
+#Start the container
 $DOCKER $DOCKER_ARGS run \
 	-v $VOLUME_PATH:/data \
 	-p 127.0.0.1:5232:5232 \
