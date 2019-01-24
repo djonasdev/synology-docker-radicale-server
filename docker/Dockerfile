@@ -9,6 +9,11 @@ LABEL Dominic Jonas <info@dominic-jonas.de>
 ENV UID="1036"
 ENV GID="1036"
 
+####################
+# Custom variables #
+####################
+ENV TZ="Europe/Berlin"
+
 ####################################################
 # All installation proccess is in build.sh         #
 # It is possible to do all work via RUN command(s) #
