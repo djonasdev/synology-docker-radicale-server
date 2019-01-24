@@ -4,7 +4,9 @@
 &nbsp;
 ![Docker pulls](https://img.shields.io/docker/pulls/djonasdev/synology-radicale-server.png "Docker pulls")
 &nbsp;
-![Docker automated](https://img.shields.io/docker/automated/djonasdev/synology-radicale-server.png "Docker automated")
+![Latest release](https://img.shields.io/github/release/dojo90/synology-docker-radicale-server.svg "Latest release")
+&nbsp;
+![Release date](https://img.shields.io/github/release-date/dojo90/synology-docker-radicale-server.svg "Release date")
 
 [![Docker repo](https://github.com/dojo90/synology-docker-radicale-server/blob/master/images/docker.png?raw=true "Docker repo")](https://hub.docker.com/r/djonasdev/synology-radicale-server)
 &nbsp;
