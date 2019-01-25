@@ -10,12 +10,11 @@ set -x
 PATH="${PATH}:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin"
 
 #######################################################
-# Git commit hash from                                #
+# Git commit hash / tag from                          #
 # https://github.com/Kozea/Radicale                   #
 # which we want to use for our Radicale server        #
-# 04.02.2018 dca25b9e909e5c99312844f6df4fa0ff986bae86 #
 #######################################################
-GIT_COMMIT="dca25b9e909e5c99312844f6df4fa0ff986bae86"
+GIT_COMMIT="2.1.11"
 
 #########################
 # Create data directory #
