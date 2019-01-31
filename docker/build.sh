@@ -28,18 +28,14 @@ WORK_DIR="/tmp/build"
 mkdir -p $WORK_DIR
 cd $WORK_DIR
 
-################################
-# Install some needed packages #
-################################
-apk update
-
 ######################################################
+# Install some needed packages                       #
 # Runtime and build dependencies for Radicale server #
 ######################################################
-apk add git python3 python3-dev build-base libffi-dev ca-certificates openssl tzdata && python3 -m pip install --upgrade pip && python3 -m pip install passlib bcrypt
+apk --no-cache add git python3 python3-dev build-base libffi-dev ca-certificates openssl tzdata && python3 -m pip install --upgrade pip && python3 -m pip install passlib bcrypt
 
 #################################################
-# Seperate build-deps                           #
+# Seperate build-dependencies                   #
 # I'm creatind variable with them to being able #
 #  to delete them back after building           #
 #################################################
